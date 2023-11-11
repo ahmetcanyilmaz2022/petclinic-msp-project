@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "sec-gr-mutual" {
-  default = "petclinic-k8s-mutual-sec-group"
+  default = "petclinic-k9s-mutual-sec-group"
 }
 
 variable "sec-gr-k8s-master" {
