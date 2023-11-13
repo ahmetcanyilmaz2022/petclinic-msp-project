@@ -127,7 +127,7 @@ resource "aws_security_group" "petclinic-kube-master-sg" {
 }
 
 resource "aws_iam_role" "petclinic-master-server-s3-role" {
-  name               = "petclinic-master-server-role1"
+  name               = "petclinic-master-server-role"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
